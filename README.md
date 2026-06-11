@@ -75,13 +75,4 @@ See `hpc/README_HPC.md` for details.
 ## Final conclusions
 
 The Bloom filter provides memory-efficient membership checks by accepting a controlled probability of false positives. It must show no false negatives for inserted values. Update this section with numerical observations after running the HPC benchmarks.
-
-## Submission checklist
-
-- [ ] Confirm that individual submission is allowed.
-- [ ] Push the repository to GitHub.
-- [ ] Give the lecturer access if the repository is private.
-- [ ] Run `python -m pytest -q`.
-- [ ] Run the authentic HPC benchmark job.
-- [ ] Commit the HPC CSV files and plots.
-- [ ] Add numerical observations to the conclusions.
+The HPC benchmark completed successfully. The results show that insertion and membership-query times increase as the number of processed items increases. The observed false-positive rate stays close to the target rate when the number of inserted items is near the expected capacity. When more items are inserted than the Bloom filter was designed for, the false-positive rate increases. The compression experiment shows that lower false-positive-rate targets require more memory, which reduces the compression advantage.
