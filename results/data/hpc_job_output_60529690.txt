@@ -1,0 +1,20 @@
+SLURM_JOB_ID: 60529690
+SLURM_JOB_USER: vsc38874
+SLURM_JOB_ACCOUNT: lp_h_ds_students
+SLURM_JOB_NAME: bloom_filter
+SLURM_CLUSTER_NAME: wice
+SLURM_JOB_PARTITION: batch
+SLURM_NNODES: 1
+SLURM_NODELIST: s28c11n4
+SLURM_JOB_CPUS_PER_NODE: 1
+Date: Thu Jun 11 12:19:03 CEST 2026
+Walltime: 00-00:30:00
+========================================================================
+...........                                                              [100%]
+11 passed in 0.21s
+Wrote /vsc-hard-mounts/leuven-data/388/vsc38874/bloom-filter-project/results/data/hpc_performance.csv
+Wrote /vsc-hard-mounts/leuven-data/388/vsc38874/bloom-filter-project/results/data/hpc_false_positive_rate.csv
+Wrote /vsc-hard-mounts/leuven-data/388/vsc38874/bloom-filter-project/results/data/hpc_compression_rate.csv
+Wrote /vsc-hard-mounts/leuven-data/388/vsc38874/bloom-filter-project/results/data/hpc_hash_distribution.csv
+Wrote plots
+Bloom filter benchmarks completed successfully.
